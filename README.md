@@ -7,6 +7,7 @@ Part One of the Series covers the basics of connecting a Python program to an Or
 
 **MyConnectInfo.py**
  - This script holds the login credentials to connect to the Oracle Database.
+ - This file was modified to include edits to support Part 3 in the blog post.  The main addition is the os.environ call to set the TNS_ADMIN environment variable.  
    
 **step-one.py**
  - This script demonstrates connecting from Python to Oracle using the cx_Oracle module and then querying a relational table to print the rows in Python.
@@ -31,3 +32,11 @@ Part Two of the Series covers the use of Python and SODA
    
 **dropSodaCollection.sql**
  - A SQL script to drop the SODA collection from the database.
+
+**createUser.sql**
+ - A SQL script to create the User SCOTT with the required privileges to run our scripts.
+ - The script also calls the ORDS.ENABLE_SCHEMA package to permit the user to use the SQLDeveloper Web console.
+ 
+**soda_dataGuide.sql**
+ - SQL Script to demonstrate the use of JSON_DATAGUIDE to describe the contents of the collection.  This function does not require SODA.
+ 
