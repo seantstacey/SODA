@@ -1,7 +1,7 @@
 # SODA
 Sample Python scripts to demonstrate SODA
 
-This repo provides sample code to supplement a 3 part series from the blog site: https://seanstacey.org/?page_id=261
+This repo provides sample code to supplement a 3 part series from the blog site: https://seanstacey.org/part-1-using-json-soda-and-python-with-oracle-database-and-autonomous-json-database/2020/10/
 
 Part One of the Series covers the basics of connecting a Python program to an Oracle database using cx_Oracle.  The following scripts are used in Part One.
 
